@@ -1,7 +1,229 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arkansas Razorbotz | NASA Lunabotics Team</title>
+  <meta name="description" content="University of Arkansas student engineering team designing autonomous lunar mining robots for the NASA Lunabotics Challenge.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <img src="Logo380x300.png" align="center">
- <h1>Arkansas Razorbotz</h1>
-</body
+  <div id="site-header"></div>
+
+  <main>
+    <section id="about" class="hero">
+      <div class="container two-column">
+        <div class="hero-content">
+          <span class="eyebrow">University of Arkansas</span>
+          <h1>Who Are We?</h1>
+          <p class="lead">Arkansas Razorbotz is a student team at the University of Arkansas designing, building, and programming autonomous lunar mining rovers for the NASA Lunabotics Challenge at Kennedy Space Center.</p>
+          <div class="button-group">
+            <a href="#history" class="btn btn-primary">Learn More</a>
+            <a href="#join" class="btn btn-outline">Join</a>
+          </div>
+        </div>
+        <div class="carousel" data-carousel aria-roledescription="carousel" aria-label="Team history photos">
+          <div class="carousel-track">
+            <figure class="carousel-slide"><img src="assets/img/2026_Arm.JPG" alt="Talos, our 2025-26 rover"></figure>
+            <figure class="carousel-slide"><img src="assets/img/Talos.JPG" alt="Talos, our 2025-26 rover"></figure>
+            <figure class="carousel-slide"><img src="assets/img/Sierra_Mk1.PNG" alt="Sierra Mk1 rover"></figure>
+            <figure class="carousel-slide"><img src="assets/img/2024_Team_Arena_2.jpg" alt="Team setting up the rover in the competition pit"></figure>
+            <figure class="carousel-slide"><img src="assets/img/2022_NASA_Pits.JPG" alt="2022 team in the NASA robopits"></figure>
+            <figure class="carousel-slide"><img src="assets/img/2026_Beach.jpg" alt="2026 team with robot on the beach"></figure>
+            <figure class="carousel-slide"><img src="assets/img/2026_Pits.JPG" alt="2026 team with robot on the beach"></figure>
+            <figure class="carousel-slide"><img src="assets/img/2026_Arena.JPG" alt="2026 team with robot on the beach"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HISTORY (timeline + photo carousel) -->
+    <section id="history" class="section bg-light">
+      <div class="container two-column">
+        <div>
+          <h2 class="section-title">History</h2>
+          <p>Arkansas Razorbotz was founded in 2010 and has competed in NASA's lunar robotics competition since then.</p>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="timeline-year">2010</span>
+              <p>First NASA Lunabotics Competition</p>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">2025</span>
+              <p>2nd place innovation at CoSMiC</p>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">2026</span>
+              <p>Competed at UCF</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel" data-carousel aria-roledescription="carousel" aria-label="Team history photos">
+          <div class="carousel-track">
+            <figure class="carousel-slide"><img src="assets/img/2026_Team.JPG" alt="Team at Kennedy Space Center"></figure>
+            <figure class="carousel-slide"><img src="assets/img/2025_Team.JPG" alt="2024 Team"></figure>
+            <figure class="carousel-slide"><img src="assets/img/2024_Team.jpg" alt="2024 Team"></figure>
+            <figure class="carousel-slide"><img src="assets/img/2022_Team.JPG" alt="2022 Team"></figure>
+            <figure class="carousel-slide"><img src="assets/img/2019_Team.png" alt="2019 Team"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competition" class="section">
+      <div class="container two-column">
+        <div>
+          <h2 class="section-title">Our Competition</h2>
+          <p>Lunabotics is structured like a formal NASA mission. We don't just build a robot—we manage a full systems-engineering lifecycle. We submit design papers, present trade studies to a NASA review panel, and validate our mechanical and software systems under strict constraints.</p>
+          <p>The finals run over a week each May at NASA's Kennedy Space Center, testing our hardware in a specialized arena filled with highly abrasive lunar regolith simulant. A scoring run must excavate regolith, traverse an obstacle filled zone, then deposit the regolith and navigate back.</p>
+          <div class="button-group">
+            <a href="https://www.nasa.gov/learning-resources/lunabotics-challenge/" class="btn btn-outline" target="_blank" rel="noopener">About Lunabotics</a>
+            <a href="team.html" class="btn btn-outline">Meet the Team</a>
+          </div>
+        </div>
+          <div class="video-embed"><iframe width="1337" height="752" src="https://www.youtube.com/embed/yz_HrQ0lY8k?list=PLEdO1D87PaRg12RWjT38v-Yv5d9xw9Hot&start=10230" title="UCF Lunabotics Qualifiers 2026 Competition Runs (May 17th)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen title="Razorbotz 2026 Competition Run"></iframe></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUBTEAMS -->
+    <section id="subteams" class="section">
+      <div class="container">
+        <h2 class="section-title">Subteams</h2>
+        <p class="section-intro">Every member joins a subteam. [Edit these to match how your team is actually organized.]</p>
+        <div class="grid-3">
+          <div class="card">
+            <h3 class="card-title">Mechanical</h3>
+            <p>Design the chassis, drivetrain, and excavation system in CAD, and run the trade studies behind each choice.</p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Electrical</h3>
+            <p>Lay out power distribution, route PCBs, and wire motors, sensors, and compute into one reliable system.</p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Software & Autonomy</h3>
+            <p>Write the ROS 2 stack that lets the rover navigate, dig, and build on its own, and test it in simulation first.</p>
+          </div>
+          <div class="card">
+            <h3 class="card-title">Systems Engineering</h3>
+            <p>Track requirements, manage interfaces between subteams, and write the design papers NASA reviews.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">FAQ</h2>
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>What majors can join?</summary>
+            <p>Most of our team studies mechanical, electrical, or computer engineering, or computer science—but operating complex rovers requires fabricators, designers, operations managers, and systems engineers just as much. Every major is welcome.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do I need robotics experience?</summary>
+            <p>No prior robotics experience is required. If you have experience, you can start contributing right away. If not, the team is developing onboarding and training materials.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What is the time commitment?</summary>
+            <p>Meetings last an average of four hours a week, but students often work more than that, especially during the weeks leading up to competition.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do I join?</summary>
+            <p>Come to a meeting—times and location are listed <a href="#join">below</a>—or email us at <a href="mailto:razorbotz@uark.edu">razorbotz@uark.edu</a>.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPONSORS -->
+    <section id="sponsors" class="section">
+      <div class="container text-center">
+        <span class="eyebrow">Support the Team</span>
+        <h2 class="section-title">Our Sponsors</h2>
+        <p class="section-intro centered">Building aerospace-grade hardware takes custom fabrication, specialized components, and travel. Our sponsors make this possible.</p>
+
+        <div class="sponsor-grid">
+          <a class="sponsor-logo" href="https://www.solidworks.com/" target="_blank" rel="noopener">
+            <img src="assets/img/SP_SolidWorks.png" alt="SolidWorks">
+          </a>
+          <!--<div class="sponsor-logo sponsor-empty">Your logo here</div>-->
+        </div>
+
+        <a href="mailto:razorbotz@uark.edu?subject=Razorbotz%20Sponsorship" class="btn btn-primary">Request Sponsorship Packet</a>
+      </div>
+    </section>
+
+    <!-- JOIN -->
+    <section id="join" class="section bg-light">
+      <div class="container two-column">
+        <div>
+          <span class="eyebrow">Recruitment</span>
+          <h2 class="section-title">Join the Razorbotz</h2>
+          <p>No prior robotics experience is required. Here's what you get:</p>
+          <ul class="plain-list">
+            <li>Hands-on CAD, PCB routing, machining, and ROS 2 development</li>
+            <li>Formal NASA systems-engineering experience for your resume</li>
+            <li>Travel to compete at Kennedy Space Center</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Meeting Info</h3>
+          <table class="spec-table flush">
+            <tr><th>Time</th><td>Wednesdays at 3pm and Saturdays at 10am</td></tr>
+            <tr><th>Location</th><td>MEEG 223</td></tr>
+            <tr><th>Email</th><td class="small"><a href="mailto:razorbotz@uark.edu">razorbotz@uark.edu</a></td></tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO GALLERY -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery" data-gallery data-thumbs="assets/img/thumbs/">
+          <div class="gallery-grid">
+            <img src="assets/img/Talos.JPG" alt="Talos, our 2025-26 rover" loading="lazy">
+            <img src="assets/img/Sierra_Mk1.PNG" alt="Sierra Mk1 rover" loading="lazy">
+            <img src="assets/img/2019_Bot.png" alt="Our 2019 rover" loading="lazy">
+            <img src="assets/img/2019_Team.png" alt="The 2019 team" loading="lazy">
+            <img src="assets/img/2022_Garage.JPG" alt="Working on the rover in the garage, 2022" loading="lazy">
+            <img src="assets/img/2022_NASA_Pits.JPG" alt="In the NASA pits, 2022" loading="lazy">
+            <img src="assets/img/2022_Team.JPG" alt="The 2022 team" loading="lazy">
+            <img src="assets/img/2024_Initial_Group_2.jpg" alt="Another early-season 2024 group photo" loading="lazy">
+            <img src="assets/img/2024_Team_Arena.jpg" alt="The 2024 team at the competition arena" loading="lazy">
+            <img src="assets/img/2024_Team_Arena_2.jpg" alt="The 2024 team beside the arena" loading="lazy">
+            <img src="assets/img/2024_Team.jpg" alt="The 2024 team" loading="lazy">
+            <img src="assets/img/2025_Backyard.jpg" alt="Backyard testing, 2025" loading="lazy">
+            <img src="assets/img/2025_Pits.JPEG" alt="In the pits, 2025" loading="lazy">
+            <img src="assets/img/2025_Pits_2.JPG" alt="Working in the pits, 2025" loading="lazy">
+            <img src="assets/img/2025_Team_Pits.JPG" alt="The 2025 team in the pits" loading="lazy">
+            <img src="assets/img/2025_Team.JPG" alt="The 2025 team" loading="lazy">
+            <img src="assets/img/2026_Arena.JPG" alt="The rover in the arena, 2026" loading="lazy">
+            <img src="assets/img/2026_Arena2.JPG" alt="A run in the arena, 2026" loading="lazy">
+            <img src="assets/img/2026_Beach.jpg" alt="The team at the beach, 2026" loading="lazy">
+            <img src="assets/img/2026_NASA.JPG" alt="At NASA's Kennedy Space Center, 2026" loading="lazy">
+            <img src="assets/img/2026_Pits.JPG" alt="In the pits, 2026" loading="lazy">
+            <img src="assets/img/2026_Rocket.JPG" alt="With a rocket at Kennedy Space Center, 2026" loading="lazy">
+            <img src="assets/img/2026_Team.JPG" alt="The 2026 team" loading="lazy">
+            <img src="assets/img/2026_Testing.jpg" alt="Testing the rover, 2026" loading="lazy">
+            <img src="assets/img/2026_Testing_2.png" alt="More rover testing, 2026" loading="lazy">
+            <img src="assets/img/2026_Testing_Berm.JPG" alt="Testing berm construction, 2026" loading="lazy">
+            <img src="assets/img/Lab_Cleanup.jpg" alt="Lab cleanup day" loading="lazy">
+            <img src="assets/img/2022_MC.jpg" alt="2022 Mission Control" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="site.js"></script>
+</body>
+</html>
