@@ -20,7 +20,7 @@ const NAV_ACTIONS = [
 
 // Replace "#" with your real profile URLs
 const SOCIAL_LINKS = [
-  { href: "#", label: "LinkedIn" },
+  { href: "https://www.linkedin.com/groups/40965251/", label: "LinkedIn" },
   { href: "https://github.com/Razorbotz", label: "GitHub" },
   { href: "https://www.youtube.com/@arkansasrazorbotz5115", label: "YouTube" }
 ];
