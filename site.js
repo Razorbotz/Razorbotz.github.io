@@ -15,7 +15,7 @@ const NAV_ITEMS = [
 // The two buttons on the right side of the nav bar
 const NAV_ACTIONS = [
   { href: "index.html#join", label: "Join Us", style: "btn-primary" },
-  { href: "mailto:razorbotz@uark.edu", label: "Contact Us", style: "btn-outline" }
+  { href: "mailto:waburrou@uark.edu", label: "Contact Us", style: "btn-outline" }
 ];
 
 // Replace "#" with your real profile URLs
